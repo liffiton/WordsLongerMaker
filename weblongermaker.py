@@ -16,7 +16,7 @@ def make_longer():
 
 
 def main():
-    bottle.run(host='0.0.0.0', server='gunicorn')
+    bottle.run()
 
 
 if __name__ == '__main__':
